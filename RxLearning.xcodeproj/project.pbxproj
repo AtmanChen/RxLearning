@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4CF799231CB810006F0156 /* GitHubSignup1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CF798231CB810006F0156 /* GitHubSignup1.storyboard */; };
+		2B4CF79C231CB9B8006F0156 /* GitHubViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF79B231CB9B8006F0156 /* GitHubViewController1.swift */; };
+		2B4CF79E231CBADD006F0156 /* GitHubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF79D231CBADD006F0156 /* GitHubSignupViewModel1.swift */; };
+		2B4CF7A1231CBF13006F0156 /* SignalTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF7A0231CBF13006F0156 /* SignalTestViewController.swift */; };
+		2B4CF7A3231CBF42006F0156 /* SignalTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CF7A2231CBF42006F0156 /* SignalTest.storyboard */; };
+		2B4CF7A6231CC965006F0156 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF7A5231CC965006F0156 /* ActivityIndicator.swift */; };
+		2B4CF7A8231CCB26006F0156 /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF7A7231CCB26006F0156 /* DefaultImplementations.swift */; };
+		2B4CF7AA231CCC97006F0156 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF7A9231CCC96006F0156 /* BindingExtensions.swift */; };
 		2BF22F8823179FF600B7C0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF22F8723179FF600B7C0D3 /* AppDelegate.swift */; };
 		2BF22F8D23179FF600B7C0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF22F8B23179FF600B7C0D3 /* Main.storyboard */; };
 		2BF22F8F23179FF700B7C0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF22F8E23179FF700B7C0D3 /* Assets.xcassets */; };
@@ -45,6 +53,14 @@
 
 /* Begin PBXFileReference section */
 		07E13264EF9D75E121BC24BD /* Pods-RxLearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLearningUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxLearningUITests/Pods-RxLearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B4CF798231CB810006F0156 /* GitHubSignup1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitHubSignup1.storyboard; sourceTree = "<group>"; };
+		2B4CF79B231CB9B8006F0156 /* GitHubViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewController1.swift; sourceTree = "<group>"; };
+		2B4CF79D231CBADD006F0156 /* GitHubSignupViewModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewModel1.swift; sourceTree = "<group>"; };
+		2B4CF7A0231CBF13006F0156 /* SignalTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTestViewController.swift; sourceTree = "<group>"; };
+		2B4CF7A2231CBF42006F0156 /* SignalTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignalTest.storyboard; sourceTree = "<group>"; };
+		2B4CF7A5231CC965006F0156 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		2B4CF7A7231CCB26006F0156 /* DefaultImplementations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
+		2B4CF7A9231CCC96006F0156 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
 		2BF22F8423179FF600B7C0D3 /* RxLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF22F8723179FF600B7C0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF22F8C23179FF600B7C0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,6 +120,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4CF79A231CB9AA006F0156 /* using driver */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CF79B231CB9B8006F0156 /* GitHubViewController1.swift */,
+				2B4CF79D231CBADD006F0156 /* GitHubSignupViewModel1.swift */,
+			);
+			path = "using driver";
+			sourceTree = "<group>";
+		};
+		2B4CF79F231CBF01006F0156 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CF7A0231CBF13006F0156 /* SignalTestViewController.swift */,
+				2B4CF7A2231CBF42006F0156 /* SignalTest.storyboard */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		2B4CF7A4231CC965006F0156 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CF7A5231CC965006F0156 /* ActivityIndicator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		2BF22F7B23179FF600B7C0D3 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +213,8 @@
 		2BF22FB92317A1DD00B7C0D3 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				2B4CF7A4231CC965006F0156 /* Services */,
+				2B4CF79F231CBF01006F0156 /* Test */,
 				2BF22FCE2317C3CD00B7C0D3 /* GitHubSignUp */,
 				2BF22FBA2317A1E200B7C0D3 /* Numbers */,
 				2BF22FC72317B86900B7C0D3 /* Simple Validation */,
@@ -217,6 +261,10 @@
 			isa = PBXGroup;
 			children = (
 				2BF22FCF2317C4F900B7C0D3 /* Protocols.swift */,
+				2B4CF7A7231CCB26006F0156 /* DefaultImplementations.swift */,
+				2B4CF7A9231CCC96006F0156 /* BindingExtensions.swift */,
+				2B4CF798231CB810006F0156 /* GitHubSignup1.storyboard */,
+				2B4CF79A231CB9AA006F0156 /* using driver */,
 			);
 			path = GitHubSignUp;
 			sourceTree = "<group>";
@@ -356,8 +404,10 @@
 				2BF22F9223179FF700B7C0D3 /* LaunchScreen.storyboard in Resources */,
 				2BF22FCB2317B88E00B7C0D3 /* SimpleValidation.storyboard in Resources */,
 				2BF22FBE2317A1F900B7C0D3 /* Numbers.storyboard in Resources */,
+				2B4CF7A3231CBF42006F0156 /* SignalTest.storyboard in Resources */,
 				2BF22F8F23179FF700B7C0D3 /* Assets.xcassets in Resources */,
 				2BF22F8D23179FF600B7C0D3 /* Main.storyboard in Resources */,
+				2B4CF799231CB810006F0156 /* GitHubSignup1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,11 +518,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4CF7A1231CBF13006F0156 /* SignalTestViewController.swift in Sources */,
+				2B4CF7AA231CCC97006F0156 /* BindingExtensions.swift in Sources */,
 				2BF22FC62317B6FB00B7C0D3 /* BaseViewController.swift in Sources */,
+				2B4CF79E231CBADD006F0156 /* GitHubSignupViewModel1.swift in Sources */,
+				2B4CF79C231CB9B8006F0156 /* GitHubViewController1.swift in Sources */,
 				2BF22FBC2317A1F000B7C0D3 /* NumbersViewController.swift in Sources */,
+				2B4CF7A6231CC965006F0156 /* ActivityIndicator.swift in Sources */,
 				2BF22FD02317C4F900B7C0D3 /* Protocols.swift in Sources */,
 				2BF22FCD2317BB1D00B7C0D3 /* ViewModelType.swift in Sources */,
 				2BF22F8823179FF600B7C0D3 /* AppDelegate.swift in Sources */,
+				2B4CF7A8231CCB26006F0156 /* DefaultImplementations.swift in Sources */,
 				2BF22FB82317A0F000B7C0D3 /* RootController.swift in Sources */,
 				2BF22FC92317B88100B7C0D3 /* SimpleValidationViewController.swift in Sources */,
 			);
